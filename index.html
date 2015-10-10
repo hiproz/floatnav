@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="keywords" content="浮动,导航">
+    <meta name="description" content="show">
+    <title>浮动导航效果演示</title>
+    <link rel="stylesheet" type="text/css" href="./css/floatnav.css" >
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.floatnav.js"></script>
+</head>
+
+<body>
+<div class="head"></div>
+<div class="main_pro">
+    <a id="qr1" title=""
+       href="images/demo.jpg"><img alt="" src="images/demo.jpg"></a>
+    <a id="qr2" title=""
+       href="images/demo.jpg"><img alt="" src="images/demo.jpg"></a>
+    <a id="qr3" title=""
+       href="images/demo.jpg"><img alt="" src="images/demo.jpg"></a>
+    <div class="clear"></div>
+</div>
+
+<!-- 页尾 -->
+<div class="foot_top"></div>
+<div class="foot">
+    <p><a style="color:#333;" href="http://www.goodmemory.cc/" target="_blank">点滴</a></p>
+</div>
+<div class="foot_bot"></div>
+
+<!-- float bar func-->
+<div id="qr_code">
+    <div class="bottom-ty">
+        <div class="jd11"></div>
+        <div class="jd22"></div>
+        <div class="jd33">
+            <div class="c2dcode" style="display: none;">
+                <div class="smjd"></div>
+                <p class="color1">手机扫描二维码</p>
+            </div>
+        </div>
+        <div class="jd44" style="display: block;"></div>
+    </div>
+</div>
+<!-- float bar end-->
+
+<!--script language="javascript" type="text/javascript">
+    function aj() {
+        $(".jd11").click(function () {
+            window.open('https://www.taobao.com');
+            //window.location.href = "https://www.taobao.com";
+        })
+
+        $(".jd22").click(function () {
+            window.open("http://weidian.com");
+            //window.location.href = "http://weidian.com";
+        })
+        $(".jd33").hover(function () {
+            $(".c2dcode").show()
+        }, function () {
+            $(".c2dcode").hide()
+        })
+
+        $(".jd44").click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            })
+        })
+    }
+    aj();
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= 100) {
+            $(".jd44").fadeIn()
+        } else {
+            $(".jd44").fadeOut()
+        }
+    });
+    $(window).scroll();
+</script-->
+</body>
+</html>
